@@ -1,0 +1,19 @@
+id: # ID of the Module, Integer?
+name: # Name of the Module, String
+category:  # Assigment to one of the categories. String or Integer?
+tags: [tag1, tag2] # List of tags
+authorship: # Name of the author, string
+language: # Name of the Programming Language, String
+license: # Name of the Licence
+interactions:
+	dependencies: [] # List of dependencies, ModuleID, Integer?
+	suggests: [] # List of suggested Modules, ModuleID, Integer?
+	related: [] # List of related Modules, ModuleID, Integer?
+inputs:
+	objects: [] # List of objects used as input
+	files: [] # List of files used as input
+	arguments: [] # List of arguments used as input
+output:
+	objects: [] # List of objects used as output
+	files: [] # List of files used as output
+	arguments: [] # List of arguments used as output
